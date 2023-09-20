@@ -43,14 +43,8 @@
     .wrapper-row-2{
         height: 480px;
 
-        .div_4{
-            width: 33.333%;
-        }
-        .div_5{
-            width: 33.333%;
-        }
-        .div_6{
-            width: 33.333%;
+        .div_4, .div_5, .div_6 {
+            width: calc(100% / 3);
         }
     }
 
